@@ -1,0 +1,149 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    margin: 0px;
+    padding:0px;
+    font-family: "Poppins", sans-serif;
+    
+    
+    /* background-image: url(./images/background.jpg);
+    background-size: cover; */
+}
+#nav ul li a{
+    color:black;
+    cursor: pointer;
+    text-decoration-color: red; 
+    /* text-decoration: none; */
+}
+
+
+
+
+
+
+/* why section */
+.why{
+    background-color:  #eee;
+}
+#why-p1{
+    font-family: "Inter", sans-serif;
+}
+#why-p2{
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+#why-p3{
+    font-family: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 15px;
+    color: #6c757d;
+    text-align: center;
+}
+#why-h4{
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+#why-circle{
+    background-color: rgba(206, 18, 18, 0.1);
+}
+.icon-box1:hover{
+    transform:scale(1.1);
+	transition:0.3s;
+}
+.icon-box2:hover{
+    transform:scale(1.1);
+	transition:0.3s;
+}
+.icon-box3:hover{
+    transform:scale(1.1);
+	transition:0.3s;
+}
+/* counter */
+#counter {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("./src/images/background.jpg") center center;
+    background-size: cover;
+    padding: 70px 0;
+  }
+/* menu */
+
+#menu ul li h5:hover{
+    color: red;
+    
+}
+#menu ul li hr:hover{
+    
+    background-color: red;
+    
+}
+#menu ul li{
+    cursor: pointer;
+}
+#menu ul li h5{
+    color: black;
+}
+/* testimonial */
+.testimonials{
+    background-color: #eee;
+}
+
+/* events */
+
+#event1{
+    
+}
+#event2{
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./src/images/events-2.jpg) ;
+    background-size: cover;
+    
+}
+#event3{
+    height: 500px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./src/images/events-3.jpg) ;
+    background-size: cover;
+}
+
+/* chefs */
+#chefs{
+    background-color: #eee;
+}
+#card1:hover{
+    transform: scale(1.08);
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
+    color: rgba(55, 55, 63, 0.9);     
+}
+#card2:hover{
+    transform: scale(1.08);
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
+    color: rgba(55, 55, 63, 0.9);     
+}
+#card3:hover{
+    transform: scale(1.08);
+    box-shadow: 0px 0 30px rgba(55, 55, 63, 0.15);
+    color: rgba(55, 55, 63, 0.9);     
+}
+/* book section */
+.image {
+    min-height: 500px;
+    background-size: cover;
+
+    /* background-position: center; */
+  }
+  .book-form1{
+    background-color: #eee;
+  }
+  #book-form2{
+    
+    box-shadow: 5px 5px 5px 0px;
+    border: 2px solid red;
+  }
+  /* footer */
+  #footer {
+    font-size: 14px;
+    background-color: #1f1f24;
+    padding: 50px 0;
+    color: rgba(255, 255, 255, 0.7);
+  }
+ 
